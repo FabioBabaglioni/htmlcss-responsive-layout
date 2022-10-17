@@ -34,8 +34,8 @@ a{
     list-style-type: none;
 }
 
-.pt-76{
-    padding-top: 76px;
+.ptb-76{
+    padding: 76px 0;
 }
 
 .plr-3{
@@ -43,21 +43,48 @@ a{
 }
 
 .mt-5{
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .mt-3{
     margin-top: 30px;
 }
 
+.mb-2{
+    margin-bottom: 20px;
+}
 
+.mr-2{
+    margin-right: 20px;
+}
 
 .pd-2{
     padding: 20px;
 }
 
-.button{
+.pb-3{
+    padding-bottom: 30px;
+}
+
+.pdb-3{
+    padding-bottom: 30px;
+}
+
+.pd-3-2{
+    padding: 30px 20px;
+}
+
+.mrtb-15{
+    margin: 15px 0;
+}
+
+.button-small{
     padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.button-big{
+    padding: 10px 40px;
     border-radius: 40px;
 }
 
@@ -69,8 +96,24 @@ a{
     background-color: white;
 }
 
+.bg-strong-blue{
+    background-color: #0084fd;
+}
+
+.bg-light-blue{
+    background-color: #b5ddff;
+}
+
+.center{
+    text-align: center;
+}
+
 .co-font{
-    color: #5a6e7f;
+    color: #5f7486;
+}
+
+.font-blue{
+    color: #0a89fd;
 }
 
 
@@ -105,24 +148,32 @@ header, a{
 /* main rules */
 
 .card{
-    width: calc(100%/3);
-    background-color: blue;
+    width: calc(100%/3 - 20px);
     border-radius: 40px;
-
-    /* debug */
-    height: 200px;
-    border: solid 2px black;
+    padding: 30px 20px;
 }
 
 .card-big{
-    width: calc((100% / 3) * 2);
-    background-color: blue;
+    width: calc((100% / 3) * 2 - 20px);
     border-radius: 40px;
-
-    /* debug */
-    height: 200px;
-    border: solid 2px black;
 }
+
+.line-height{
+    line-height: 130%;
+    font-size: 20px;
+}
+
+.img-phone{
+    width: 80%;
+    justify-content: flex-end;
+}
+
+
+.fa-solid{
+    font-size: 60px;
+}
+
+
 
 /* section strategic planning */
 
