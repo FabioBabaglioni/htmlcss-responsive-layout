@@ -145,3 +145,23 @@ header, li{
     border: solid 2px black;
     margin: 10PX 0;
 }
+
+/* section about us */
+
+.ab-col-sx{
+    width: 85%;
+
+    /* debug */
+    height: 500px;
+    background-color: brown;
+    margin: 20px 0 ;
+}
+
+.ab-col-dx{
+    width: 15%;
+
+    /* debug */
+    height: 500px;
+    background-color: yellow;
+    margin: 20px 0;
+}
