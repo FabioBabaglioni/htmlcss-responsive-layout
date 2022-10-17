@@ -4,3 +4,39 @@
     box-sizing: border-box;
 }
 
+
+/* general rules */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-center{
+align-items: center;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* rules header */
+
+header{
+    background-color: lightblue;
+    height: 76px;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+
+header, li{
+    display: inline;
+}
