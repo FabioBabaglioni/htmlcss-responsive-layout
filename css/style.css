@@ -30,12 +30,24 @@ a{
     padding-top: 76px;
 }
 
+.plr-3{
+    padding: 0 30px;
+}
+
 .mt-5{
     margin-top: 50px;
 }
 
 .mt-3{
     margin-top: 30px;
+}
+
+.bg-v{
+    background-color: blueviolet;
+}
+
+.pd-2{
+    padding: 20px;
 }
 
 
@@ -78,4 +90,22 @@ header, li{
     /* debug */
     height: 200px;
     border: solid 2px black;
+}
+
+/* section strategic planning */
+
+.col-sx{
+    width: 50%;
+
+    /* debug */
+    height: 450px;
+    background-color: yellow;
+}
+
+.col-dx{
+    width: 50%;
+
+    /* debug */
+    height: 450px;
+    background-color: brown;
 }
