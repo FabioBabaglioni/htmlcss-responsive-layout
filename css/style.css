@@ -25,6 +25,14 @@ body{
     flex-wrap: wrap;
 }
 
+.ali-end{
+    align-items: flex-end;
+}
+
+.jus-end{
+    align-items: flex-end;
+}
+
 .align-center{
 align-items: center;
 }
@@ -38,8 +46,8 @@ a{
     padding: 76px 0;
 }
 
-.plr-3{
-    padding: 0 30px;
+.plr-8{
+    padding: 0 80px;
 }
 
 .mt-5{
@@ -54,12 +62,20 @@ a{
     margin-bottom: 20px;
 }
 
+.mb-6{
+    margin-bottom: 60px;
+}
+
 .mr-2{
     margin-right: 20px;
 }
 
 .pd-2{
     padding: 20px;
+}
+
+.pd-4{
+    padding: 40px 0;
 }
 
 .pb-3{
@@ -89,7 +105,7 @@ a{
 }
 
 .bg-v{
-    background-color: blueviolet;
+    background-color: #9792e4;
 }
 
 .bg-w{
@@ -116,6 +132,9 @@ a{
     color: #0a89fd;
 }
 
+.font-white{
+    color: white;
+}
 
 
 
@@ -156,6 +175,8 @@ header, a{
 .card-big{
     width: calc((100% / 3) * 2 - 20px);
     border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .line-height{
@@ -164,8 +185,8 @@ header, a{
 }
 
 .img-phone{
-    width: 80%;
-    justify-content: flex-end;
+    width: 90%;
+    align-items: flex-end;
 }
 
 
@@ -173,24 +194,41 @@ header, a{
     font-size: 60px;
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* section strategic planning */
 
 .col-sx{
     width: 50%;
-
-    /* debug */
-    height: 450px;
-    background-color: yellow;
+    padding-top: 70px;
 }
 
 .col-dx{
     width: 50%;
+    padding-top: 70px;
+}
 
-    /* debug */
-    height: 450px;
-    background-color: brown;
+.img-planning{
+    width: 90%;
+}
+
+.card-app{
+    background-color: white;
+    border-radius: 40px;
+}
+
+.img-app{
+    width: 60%;
+}
+
+.button-round{
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #9792e4;
 }
 
 /* section testimonial */
@@ -280,6 +318,14 @@ footer{
     #menu{
         display: inline;
     }
+
+    /* section introduction */
+    .card-big{
+        display: inline;
+    }
+
+    /* section strategic */
+
 }
 
 
@@ -290,4 +336,13 @@ footer{
 /* smartphone version */
 @media all and (max-width: 480px) {
     
+    /* section introduction */
+    .row{
+        display: block;
+    }
+
+    .card, .card-big{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
