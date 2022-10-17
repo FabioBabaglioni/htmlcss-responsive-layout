@@ -26,6 +26,18 @@ a{
     list-style-type: none;
 }
 
+.pt-76{
+    padding-top: 76px;
+}
+
+.mt-5{
+    margin-top: 50px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
 
 /* rules header */
 
@@ -39,4 +51,31 @@ header{
 
 header, li{
     display: inline;
+}
+
+#menu{
+    display: none;
+}
+
+
+/* main rules */
+
+.card{
+    width: calc(100%/3);
+    background-color: blue;
+    border-radius: 40px;
+
+    /* debug */
+    height: 200px;
+    border: solid 2px black;
+}
+
+.card-big{
+    width: calc((100% / 3) * 2);
+    background-color: blue;
+    border-radius: 40px;
+
+    /* debug */
+    height: 200px;
+    border: solid 2px black;
 }
