@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 20px;
+}
+
 
 /* general rules */
 .container{
@@ -46,19 +50,36 @@ a{
     margin-top: 30px;
 }
 
-.bg-v{
-    background-color: blueviolet;
-}
+
 
 .pd-2{
     padding: 20px;
 }
 
+.button{
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.bg-v{
+    background-color: blueviolet;
+}
+
+.bg-w{
+    background-color: white;
+}
+
+.co-font{
+    color: #5a6e7f;
+}
+
+
+
 
 /* rules header */
 
 header{
-    background-color: lightblue;
+    background-color: #0084fd;
     height: 76px;
     width: 100%;
     position: fixed;
@@ -67,6 +88,13 @@ header{
 
 header, li{
     display: inline;
+
+}
+
+header, a{
+    margin-right: 20px;
+    color: white;
+
 }
 
 #menu{
@@ -184,4 +212,31 @@ header, li{
 footer{
     height: 200px;
     background-color: black;
+}
+
+
+
+
+/* tablet version */
+
+@media all and (max-width: 768px) {
+    
+    /* header rules */
+    #menu-desktop{
+        display: none;
+    }
+
+    #menu{
+        display: inline;
+    }
+}
+
+
+
+
+
+
+/* smartphone version */
+@media all and (max-width: 480px) {
+    
 }
