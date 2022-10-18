@@ -56,10 +56,6 @@ a{
     padding: 76px 0;
 }
 
-.plr-8{
-    padding: 0 80px;
-}
-
 .mt-5{
     margin: 50px 0;
 }
@@ -80,16 +76,8 @@ a{
     margin-right: 20px;
 }
 
-.pd-2{
-    padding: 20px;
-}
-
 .pd-4{
     padding: 40px 0;
-}
-
-.pb-3{
-    padding-bottom: 30px;
 }
 
 .pt-3{
@@ -313,7 +301,7 @@ header, a{
 /* section benefits */
 
 .ben-card{
-    width: 350px;
+    width: calc(100% / 3 - 20px);
     text-align: left;
     padding: 35px;
     border-radius: 40px;
@@ -450,7 +438,7 @@ footer{
 }
 
 footer a{
-    color: #9792e4;
+    color: ;
     text-decoration: underline;
 }
 
@@ -485,17 +473,28 @@ footer a{
 
     .col-sx{
         width: 100%;
+        text-align: center;
     }
 
     .col-dx{
         width: 100%;
+        text-align: center;
     }
 
     /* benefits section */
-    .
+    .ben-card{
+        width: calc(100% / 2 - 10px);
+    }
+
+    .container-small{
+        width: 70%;
+    }
+
+    .container-footer-small{
+        width: 60%;
+    }
+
 }
-
-
 
 
 
@@ -531,10 +530,30 @@ footer a{
     .ab-col-sx{
         width: 100%;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .ab-col-dx{
         width: 100%;
+        text-align: center;
 
     }
+
+    .ben-card{
+        width: 100%;
+
+    }
+
+    .container-small{
+        width: 95%;
+    }
+
+    .container-footer-small{
+        width: 90%;
+    }
+
+    footer{
+        height: 250px;
+    }
+
 }
