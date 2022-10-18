@@ -429,8 +429,29 @@ header, a{
 /* footer */
 
 footer{
-    height: 200px;
-    background-color: black;
+    height: 400px;
+    background-color: #333333;
+    padding: 60px 0;
+    
+}
+
+.container-footer-small{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.footer-margin{
+    text-align: ;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+footer a{
+    color: #9792e4;
+    text-decoration: underline;
 }
 
 
