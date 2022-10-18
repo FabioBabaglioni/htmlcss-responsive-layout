@@ -343,37 +343,88 @@ header, a{
 }
 
 /* section about us */
+.container-about-us{
+    display: flex;
+    justify-content: space-between;
+}
 
 .ab-col-sx{
-    width: 85%;
+    width: 65%;
 
     /* debug */
-    height: 500px;
-    background-color: brown;
     margin: 20px 0 ;
 }
 
 .ab-col-dx{
-    width: 15%;
+    width: 25%;
 
     /* debug */
-    height: 500px;
-    background-color: yellow;
     margin: 20px 0;
+}
+
+.img-about{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-catch{
+    font-size: 25px;
+    color: #9792e4;
+    line-height: 150%;
+    margin-bottom: 30px;
 }
 
 /* section get strated */
 
 .get{
-    height: 300px;
+    padding: 40px 0;
 }
 
-.text-big{
-    /* debug */
-    height: 300px;
-    background-color: antiquewhite;
+.container-small{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
 
+.get-started{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.get-medium-text{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.get-big-text{
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: rgb(239, 163, 97);
+}
+
+.get-normal-text{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.get-button-big{
+    padding: 20px 60px;
+    background-color: white;
+    color: #9792e4;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.get-copy{
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
 
 /* footer */
 
@@ -450,5 +501,19 @@ footer{
 
     .test-text{
         width: 100%;
+    }
+
+    .container-about-us{
+        display: block;
+    }
+
+    .ab-col-sx{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ab-col-dx{
+        width: 100%;
+
     }
 }
